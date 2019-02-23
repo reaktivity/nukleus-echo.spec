@@ -26,7 +26,7 @@ import org.junit.rules.Timeout;
 import org.kaazing.k3po.junit.annotation.Specification;
 import org.kaazing.k3po.junit.rules.K3poRule;
 
-public class StreamsIT
+public class ServerIT
 {
     private final K3poRule k3po = new K3poRule()
         .addScriptRoot("scripts", "org/reaktivity/specification/nukleus/echo/streams/rfc862");
