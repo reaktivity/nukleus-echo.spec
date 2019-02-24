@@ -8,6 +8,7 @@
   <artifactId>nukleus-echo.spec</artifactId>
   <version>0.1</version>
   <name>Echo Nukleus Specification</name>
+  <description>Echo Nukleus Specification</description>
   <url>https://github.com/reaktivity/nukleus-echo.spec</url>
 
   <licenses>
