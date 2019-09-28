@@ -6,7 +6,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.reaktivity</groupId>
   <artifactId>nukleus-echo.spec</artifactId>
-  <version>develop-SNAPSHOT</version>
+  <version>0.10</version>
   <name>Echo Nukleus Specification</name>
   <description>Echo Nukleus Specification</description>
   <url>https://github.com/reaktivity/nukleus-echo.spec</url>
