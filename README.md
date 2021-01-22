@@ -13,7 +13,7 @@
 ```bash
 mvnw.cmd clean install
 ```
-[build-status-image]: https://travis-ci.com/reaktivity/nukleus-echo.spec.svg?branch=develop
-[build-status]: https://travis-ci.com/reaktivity/nukleus-echo.spec
+[build-status-image]: https://github.com/reaktivity/nukleus-echo.spec/workflows/build/badge.svg
+[build-status]: https://github.com/reaktivity/nukleus-echo.spec/actions
 [code-coverage-image]: https://codecov.io/gh/reaktivity/nukleus-echo.spec/branch/develop/graph/badge.svg
 [code-coverage]: https://codecov.io/gh/reaktivity/nukleus-echo.spec
