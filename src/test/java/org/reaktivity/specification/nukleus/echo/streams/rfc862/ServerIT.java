@@ -57,4 +57,26 @@ public class ServerIT
         k3po.notifyBarrier("ROUTED_SERVER");
         k3po.finish();
     }
+
+    @Test
+    @Specification({
+        "${scripts}/client.sent.flush/client",
+        "${scripts}/client.sent.flush/server"})
+    public void shouldEchoClientSentFlush() throws Exception
+    {
+        k3po.start();
+        k3po.notifyBarrier("ROUTED_SERVER");
+        k3po.finish();
+    }
+
+    @Test
+    @Specification({
+        "${scripts}/client.sent.challenge/client",
+        "${scripts}/client.sent.challenge/server"})
+    public void shouldEchoClientSentChallenge() throws Exception
+    {
+        k3po.start();
+        k3po.notifyBarrier("ROUTED_SERVER");
+        k3po.finish();
+    }
 }
