@@ -13,6 +13,7 @@
  * License for the specific language governing permissions and limitations
  * under the License.
  */
-module org.reaktivity.specification.nukleus.echo
+open module org.reaktivity.specification.nukleus.echo
 {
+    requires transitive org.reaktivity.specificaiton.nukleus;
 }
