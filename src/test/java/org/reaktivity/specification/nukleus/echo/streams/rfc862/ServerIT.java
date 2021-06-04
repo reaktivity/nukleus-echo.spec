@@ -42,8 +42,6 @@ public class ServerIT
         "${scripts}/connection.established/server"})
     public void shouldEstablishConnection() throws Exception
     {
-        k3po.start();
-        k3po.notifyBarrier("ROUTED_SERVER");
         k3po.finish();
     }
 
@@ -53,8 +51,6 @@ public class ServerIT
         "${scripts}/client.sent.data/server"})
     public void shouldEchoClientSentData() throws Exception
     {
-        k3po.start();
-        k3po.notifyBarrier("ROUTED_SERVER");
         k3po.finish();
     }
 
@@ -64,8 +60,6 @@ public class ServerIT
         "${scripts}/client.sent.flush/server"})
     public void shouldEchoClientSentFlush() throws Exception
     {
-        k3po.start();
-        k3po.notifyBarrier("ROUTED_SERVER");
         k3po.finish();
     }
 
@@ -75,8 +69,6 @@ public class ServerIT
         "${scripts}/client.sent.challenge/server"})
     public void shouldEchoClientSentChallenge() throws Exception
     {
-        k3po.start();
-        k3po.notifyBarrier("ROUTED_SERVER");
         k3po.finish();
     }
 }
